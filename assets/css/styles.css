@@ -42,7 +42,6 @@
     padding-top: 25px;
   }
 
-
   /* Paragraph */
   p {
     color: black;
@@ -56,14 +55,12 @@
     padding: 10px 20px 15px; 
     color:black;
     background-color: white; 
-  
   }
 
   /* Images */
 img{
     width:100%;
-    height:100%;
-    
+    height:100%; 
   }
 
   .active, .panel:hover{
@@ -75,7 +72,8 @@ img{
     width:50%;
     height:50%;
   }
-/* Footer */
+
+  /* Footer */
 footer {
   background-color: #666666;
   border-top-style: solid;
@@ -91,7 +89,6 @@ footer {
   bottom: 0;
   width: 100%;
   padding-top: 1px;
-
 }
 
 /* Table*/
@@ -116,12 +113,10 @@ footer {
     .navbar-brand{
       padding: 10px; 
     }
-
     button{
         margin-right: 30px; 
       }
     button:focus {
-
         outline: 1px dotted;
         outline: 5px auto -webkit-focusring-color;               
       }
